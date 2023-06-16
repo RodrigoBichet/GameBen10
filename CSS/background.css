@@ -1,0 +1,33 @@
+/*Background*/
+.degrade {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(
+        160deg,
+        black,
+        rgb(3, 32, 8),
+        rgb(3, 32, 8),
+        rgb(3, 32, 8),
+        rgb(3, 32, 8),
+        rgb(3, 32, 8),
+        black
+    );
+    background-size: 140% 100%;
+    animation: degrade 1.8s ease-in-out infinite alternate;
+}
+
+@keyframes degrade {
+    0% {
+        background-position-x: 0%;
+    }
+    100% {
+        background-position-x: 100%;
+    }
+}
+
+/* Scroll */
+::-webkit-scrollbar {
+    display: none;
+}

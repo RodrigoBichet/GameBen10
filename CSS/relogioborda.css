@@ -1,0 +1,83 @@
+.load {
+    position: absolute;
+    height: 37%;
+    width: 42%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-left: #000000 solid 115px;
+    border-right: #000000 solid 115px;
+    border-top: #99ff33 solid 125px;
+    border-bottom: #99ff33 solid 125px;
+    border-radius: 100%;
+    animation: rotate infinite linear;
+    animation-duration: 5s;
+}
+
+.bolapretaimg {
+    position: absolute;
+    height: 147px;
+    width: 147px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(0, 0, 0);
+    border-radius: 100%;
+    border: 6px solid #201212;
+}
+
+.bolapretaimg2 {
+    position: absolute;
+    height: 158px;
+    width: 158px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 100%;
+    border: 8px solid #99ff33;
+}
+
+.con {
+    position: absolute;
+    height: 350px;
+    width: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: black;
+    border-radius: 100%;
+}
+
+.con1 {
+    position: absolute;
+    height: 418px;
+    width: 418px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #201212;
+    border-radius: 100%;
+}
+
+.con2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    height: 491px;
+    width: 491px;
+    border: solid 5px #000000;
+}
+
+.con3 {
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: black;
+    border-radius: 50%;
+    height: 440px;
+    width: 440px;
+    border: solid 30px #9e9e9e;
+}

@@ -1,0 +1,265 @@
+* {
+    font-family: myFont;
+}
+
+/*fonte*/
+header {
+    position: relative;
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(../FONT/GROBOLD.ttf);
+}
+
+/*main*/
+.titulo {
+    color: black;
+    text-align: center;
+    font-family: myFont;
+    font-size: 55px;
+    animation: neon 2s linear infinite alternate;
+}
+
+@keyframes neon {
+    from {
+        text-shadow: 0 0 5px white, 0 0 10px white, 0 0 30px #50ff50,
+            0 0 35px #50ff50;
+    }
+}
+
+/*Container*/
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-top: 3.5%;
+    padding-bottom: 29px;
+    opacity: 0;
+    animation: show-content 5s ease-in 100ms forwards 1;
+}
+
+@keyframes show-content {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+#box {
+    width: 200px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.trigger:focus-within .globin-walk {
+    animation-play-state: running;
+}
+
+/*p*/
+.upper {
+    text-transform: uppercase;
+}
+
+/*Botao*/
+button {
+    position: absolute;
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 15%;
+    transition: padding-top 0.5s ease;
+}
+
+button:hover {
+    background-color: chartreuse;
+    transform: scale(1.15);
+    color: black;
+    border-bottom: chartreuse;
+    border-radius: 10%;
+    transition: border-bottom 4s ease-in, background-color 3s ease;
+}
+
+button:active {
+    transform: scale(0.95);
+    font-weight: bold;
+}
+
+.btn2 {
+    bottom: 10px;
+    left: 47%;
+    font-size: 20px;
+    padding: 1px 10px;
+}
+
+.btn3 {
+    top: 5%;
+    left: 1%;
+    font-size: 19px;
+}
+
+.btn4 {
+    position: absolute;
+    top: 53%;
+    left: 43%;
+    font-size: 17px;
+    border-color: white;
+}
+
+.btn4:hover {
+    border-color: chartreuse;
+    transition: border-bottom 5s ease-in, background-color 3s ease;
+}
+
+.linkplay {
+    color: white;
+}
+
+/*Tutorial*/
+.tutorial {
+    display: flex;
+    flex-direction: column;
+    background-color: #7e7e7e62;
+    border-radius: 20px;
+    border: 5px solid black;
+    width: 350px;
+    padding-bottom: 20px;
+}
+
+.textotutorial {
+    width: 320px;
+    height: 360px;
+    font-size: 19px;
+    color: black;
+    padding-left: 15px;
+    display: none;
+}
+
+.wrap {
+    width: max-content;
+}
+.typing {
+    margin-left: 45px;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid black;
+    padding-right: 2px;
+    font-size: 35px;
+    padding: 1px 20px;
+    animation: typing 2s steps(20) infinite alternate, blink 0.5s infinite,
+        neon2 1s linear infinite alternate;
+}
+
+@keyframes typing {
+    0% {
+        width: 0%;
+        visibility: hidden;
+    }
+    100% {
+        width: 100%;
+    }
+}
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+    100% {
+        border-color: black;
+    }
+}
+
+@keyframes neon2 {
+    from {
+        text-shadow: 0 0 1px white, 0 0 2px white, 0 0 5px #50ff50,
+            0 0 3px #50ff50;
+    }
+    to {
+        text-shadow: 0 0 1px white, 0 0 2px #fff, 0 0 5px #50ff50,
+            0 0 3px #50ff50;
+    }
+}
+
+#mostratexto1 {
+    position: absolute;
+    top: 31%;
+    left: 7%;
+}
+
+/*Objetivos*/
+.objetivos {
+    width: 350px;
+    background-color: #7e7e7e62;
+    border-radius: 20px;
+    border: 5px solid black;
+    position: absolute;
+    top: 21%;
+    left: 73.5%;
+    padding-bottom: 20px;
+}
+
+.textoobjetivo {
+    width: 300px;
+    font-size: 20.7px;
+    color: black;
+    padding-left: 30px;
+    padding-left: 15px;
+}
+
+/*Como jogar*/
+.comojogar {
+    width: 350px;
+    background-color: #7e7e7e62;
+    border-radius: 20px;
+    border: 5px solid black;
+    position: absolute;
+    top: 23%;
+    left: 72%;
+}
+
+.textocomojogar {
+    width: 320px;
+    height: 280px;
+    font-size: 19px;
+    color: black;
+    padding-left: 15px;
+}
+
+/*Fala azmuth*/
+.falaazmuth {
+    position: absolute;
+    top: 14%;
+    left: 28%;
+    color: white;
+    font-size: 11px;
+}
+
+/*Footer*/
+footer {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-top: 2vh;
+    position: absolute;
+    bottom: 2%;
+    left: 40%;
+}
+
+.linkgit:link,
+.linkgit:visited {
+    text-decoration: none;
+    color: white;
+}
+.linkgit:hover {
+    color: #1da02a;
+    text-decoration: underline;
+    font-size: 103%;
+}

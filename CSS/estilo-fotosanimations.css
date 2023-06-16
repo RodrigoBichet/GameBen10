@@ -1,0 +1,37 @@
+.imagestyle {
+    transition: transform 0.8s;
+}
+
+.imagestyle:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+@keyframes circle-in-hesitate {
+    0% {
+        clip-path: circle(0%);
+    }
+    40% {
+        clip-path: circle(40%);
+    }
+    100% {
+        clip-path: circle(125%);
+    }
+}
+
+[transition-style="in:circle:hesitate"] {
+    animation: 2.5s cubic-bezier(0.25, 1, 0.3, 1) circle-in-hesitate both;
+}
+
+#azmuth {
+    position: absolute;
+    top: 18%;
+    left: 1%;
+}
+
+#fala {
+    position: absolute;
+    top: 13%;
+    left: 25%;
+}
