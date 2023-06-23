@@ -46,87 +46,109 @@ export default class Ben extends Circ {
     async loadsprites() {
         if (this.sprite == "ben") {
             this.benSprite = {
-                up: await loadImage("../../ASSETS/img/ben_up.png"),
-                right: await loadImage("../../ASSETS/img/ben_right.png"),
-                left: await loadImage("../../ASSETS/img/ben_left.png"),
-                down: await loadImage("../../ASSETS/img/ben_down.png"),
+                up: await loadImage("/ASSETS/img/ben_up.png"),
+                right: await loadImage("/ASSETS/img/ben_right.png"),
+                left: await loadImage("/ASSETS/img/ben_left.png"),
+                down: await loadImage("/ASSETS/img/ben_down.png"),
             };
         }
         if (this.sprite == "kevin") {
             this.benSprite = {
-                up: await loadImage("../../ASSETS/img/kevin_up.png"),
-                right: await loadImage("../../ASSETS/img/kevin_right.png"),
-                left: await loadImage("../../ASSETS/img/kevin_left.png"),
-                down: await loadImage("../../ASSETS/img/kevin_down.png"),
+                up: await loadImage("/ASSETS/img/kevin_up.png"),
+                right: await loadImage(
+                    "/ASSETS/img/kevin_right.png"
+                ),
+                left: await loadImage("/ASSETS/img/kevin_left.png"),
+                down: await loadImage("/ASSETS/img/kevin_down.png"),
             };
         }
 
         if (this.sprite == "gwen") {
             this.benSprite = {
-                up: await loadImage("../../ASSETS/img/gwen_up.png"),
-                right: await loadImage("../../ASSETS/img/gwen_right.png"),
-                left: await loadImage("../../ASSETS/img/gwen_left.png"),
-                down: await loadImage("../../ASSETS/img/gwen_down.png"),
+                up: await loadImage("/ASSETS/img/gwen_up.png"),
+                right: await loadImage(
+                    "/ASSETS/img/gwen_right.png"
+                ),
+                left: await loadImage("/ASSETS/img/gwen_left.png"),
+                down: await loadImage("/ASSETS/img/gwen_down.png"),
             };
         }
 
         if (this.sprite == "chama") {
             this.benSprite = {
-                up: await loadImage("../../ASSETS/img/chama_up.png"),
-                right: await loadImage("../../ASSETS/img/chama_right.png"),
-                left: await loadImage("../../ASSETS/img/chama_left.png"),
-                down: await loadImage("../../ASSETS/img/chama_down.png"),
+                up: await loadImage("/ASSETS/img/chama_up.png"),
+                right: await loadImage(
+                    "/ASSETS/img/chama_right.png"
+                ),
+                left: await loadImage("/ASSETS/img/chama_left.png"),
+                down: await loadImage("/ASSETS/img/chama_down.png"),
             };
         }
 
         if (this.sprite == "quatrobracos") {
             this.benSprite = {
-                up: await loadImage("../../ASSETS/img//quatrobracos_up.png"),
+                up: await loadImage(
+                    "/ASSETS/img//quatrobracos_up.png"
+                ),
                 right: await loadImage(
-                    "../../ASSETS/img//quatrobracos_right.png"
+                    "/ASSETS/img//quatrobracos_right.png"
                 ),
                 left: await loadImage(
-                    "../../ASSETS/img//quatrobracos_left.png"
+                    "/ASSETS/img//quatrobracos_left.png"
                 ),
                 down: await loadImage(
-                    "../../ASSETS/img//quatrobracos_down.png"
+                    "/ASSETS/img//quatrobracos_down.png"
                 ),
             };
         }
 
         if (this.sprite == "xlr8") {
             this.benSprite = {
-                up: await loadImage("../../ASSETS/img/xlr8_up.png"),
-                right: await loadImage("../../ASSETS/img/xlr8_right.png"),
-                left: await loadImage("../../ASSETS/img/xlr8_left.png"),
-                down: await loadImage("../../ASSETS/img/xlr8_down.png"),
+                up: await loadImage("/ASSETS/img/xlr8_up.png"),
+                right: await loadImage(
+                    "/ASSETS/img/xlr8_right.png"
+                ),
+                left: await loadImage("/ASSETS/img/xlr8_left.png"),
+                down: await loadImage("/ASSETS/img/xlr8_down.png"),
             };
         }
 
         if (this.sprite == "diamante") {
             this.benSprite = {
-                up: await loadImage("../../ASSETS/img/diamante_up.png"),
-                right: await loadImage("../../ASSETS/img/diamante_right.png"),
-                left: await loadImage("../../ASSETS/img/diamante_left.png"),
-                down: await loadImage("../../ASSETS/img/diamante_down.png"),
+                up: await loadImage("/ASSETS/img/diamante_up.png"),
+                right: await loadImage(
+                    "/ASSETS/img/diamante_right.png"
+                ),
+                left: await loadImage(
+                    "/ASSETS/img/diamante_left.png"
+                ),
+                down: await loadImage(
+                    "/ASSETS/img/diamante_down.png"
+                ),
             };
         }
 
         if (this.sprite == "fantasmatico") {
             this.benSprite = {
-                up: await loadImage("../../ASSETS/img/fantasmatico_up.png"),
-                right: await loadImage(
-                    "../../ASSETS/img/fantasmatico_right.png"
+                up: await loadImage(
+                    "/ASSETS/img/fantasmatico_up.png"
                 ),
-                left: await loadImage("../../ASSETS/img/fantasmatico_left.png"),
-                down: await loadImage("../../ASSETS/img/fantasmatico_down.png"),
+                right: await loadImage(
+                    "/ASSETS/img/fantasmatico_right.png"
+                ),
+                left: await loadImage(
+                    "/ASSETS/img/fantasmatico_left.png"
+                ),
+                down: await loadImage(
+                    "/ASSETS/img/fantasmatico_down.png"
+                ),
             };
         } else if (this.sprite == null) {
             this.benSprite = {
-                up: await loadImage("../../ASSETS/img/ben_up.png"),
-                right: await loadImage("../../ASSETS/img/ben_right.png"),
-                left: await loadImage("../../ASSETS/img/ben_left.png"),
-                down: await loadImage("../../ASSETS/img/ben_down.png"),
+                up: await loadImage("/ASSETS/img/ben_up.png"),
+                right: await loadImage("/ASSETS/img/ben_right.png"),
+                left: await loadImage("/ASSETS/img/ben_left.png"),
+                down: await loadImage("/ASSETS/img/ben_down.png"),
             };
         }
     }

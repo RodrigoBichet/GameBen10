@@ -1,14 +1,14 @@
 canvas {
     border: 7px solid black;
     background-color: aliceblue;
-    background-image: url("../../ASSETS/img/background.png");
+    background-image: url("/ASSETS/img/background.png");
     background-size: cover;
     border-radius: 2%;
 }
 
 @font-face {
     font-family: "Pixel";
-    src: url("../FONT/PressStart2P.ttf") format("truetype");
+    src: url("/FONT/PressStart2P.ttf") format("truetype");
 }
 
 .canvasstyle {
