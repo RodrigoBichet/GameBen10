@@ -11,7 +11,7 @@ export default class Crystal extends Circ {
         this.crystalWidth = 22;
         this.crystalHeight = 33;
         this.crystalImage = new Image();
-        this.crystalImage.src = "../../ASSETS/img/crystal.png";
+        this.crystalImage.src = "/ASSETS/img/crystal.png";
         this.lifetime = lifetime;
     }
 

@@ -11,7 +11,7 @@ export default class Omni extends Circ {
         this.omniWidth = 44;
         this.omniHeight = 66;
         this.omniImage = new Image();
-        this.omniImage.src = "../../ASSETS/img/omnitrix.png";
+        this.omniImage.src = "/ASSETS/img/omnitrix.png";
     }
 
     drawOmni(ctx) {

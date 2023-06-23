@@ -14,7 +14,7 @@ export default class Drone extends Circ {
         this.droneWidth = 30;
         this.droneHeight = 33;
         this.droneImage = new Image();
-        this.droneImage.src = "../../ASSETS/img/drone.png";
+        this.droneImage.src = "/ASSETS/img/drone.png";
     }
 
     drawDrone(ctx) {
