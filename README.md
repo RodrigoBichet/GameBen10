@@ -34,6 +34,12 @@ npm install
 npm run dev
 ```
 
+## 🎮 Para jogar
+
+O jogo está no ar e para acessá-lo basta entrar no link a baixo.
+
+https://gameben10byrods.netlify.app/
+
 ## Autor
 
 <strong> Rodrigo Bichet </strong>
