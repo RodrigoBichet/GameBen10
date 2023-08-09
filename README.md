@@ -2,6 +2,13 @@
 
 <img src="./assets/projetogif.gif" alt="Demonstração do projeto sendo executado.">
 
+
+## 🎮 Para jogar
+
+O jogo está no ar e para acessá-lo basta entrar no link a baixo.
+
+https://gameben10byrods.netlify.app/
+
 ## 💻 Sobre o projeto
 
 > Jogo realizado com intuito de me aprofundar na tecnologia Javascript com associação ao canvas e a utilização de sprites para uma boa elaboração do FrontEnd.
@@ -33,12 +40,6 @@ Para que o projeto seja compilado são necessários os seguintes comandos:
 npm install
 npm run dev
 ```
-
-## 🎮 Para jogar
-
-O jogo está no ar e para acessá-lo basta entrar no link a baixo.
-
-https://gameben10byrods.netlify.app/
 
 ## Autor
 
